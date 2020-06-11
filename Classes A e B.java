@@ -34,6 +34,10 @@ class A {
 	public void MA2(){
         System.out.println("Metodo MA2 com valor: "+getA2());
     }
+	
+	public String MA3(){
+		return "Alteração da classe A partir do clone";
+	}
 }
 
 class B {
@@ -67,6 +71,26 @@ class B {
 	
 	public void MB2(){
         System.out.println("Metodo MB2 com valor: "+getB2());
+    }
+
+}
+class C {
+	
+	private String C1;
+	private Integer C2;
+	
+	public C(String C1, Integer C2){
+		this.C1 = C1;
+		this.C2 = C2;
+	}
+	
+	
+	public void MC1(){
+        System.out.println("Metodo MC1");
+    }
+	
+	public void MC2(){
+        System.out.println("Metodo MC2");
     }
 
 }
